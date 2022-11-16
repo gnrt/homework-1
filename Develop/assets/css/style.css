@@ -1,3 +1,4 @@
+/*Universal settings for the whole document*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,14 +6,10 @@
     text-decoration: none;
 }
 
+/*general settings for document*/
 h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 p {
@@ -37,6 +34,7 @@ a {
     color: #ffffff;
 }
 
+/*settings for header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,6 +56,7 @@ header div {
     color: #d9dcd6;
 }
 
+/*setting background image*/
 #hero {
     height: 800px;
     width: 100%;
@@ -68,6 +67,7 @@ header div {
     background-position: center;
 }
 
+/*settings for main portion of the website*/
 #content-section {
     width: 75%;
     display: inline-block;
@@ -101,6 +101,7 @@ header div {
     margin-left: 25px;
 }
 
+/*settings for right hand side bar*/
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,6 +111,11 @@ header div {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+#benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 #benefits img {
@@ -122,6 +128,7 @@ header div {
     margin-bottom: 32px;
 }
 
+/*settings for footer*/
 footer {
     color: #000000;
     padding: 30px;
